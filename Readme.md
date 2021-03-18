@@ -4,4 +4,6 @@ This experiment shows a Model Predictive Control for an inverted pendulum which 
 
 The plant and the model differ in the dampening of the pin joint and the length of the rod. Additionally, the state x (angle and angle velocity) and control input u (propeller force) have gaussian noise, see the video for the magnitude.
 
+Implemented in python, optimization done with scipy.
+
 ![video of the simulation](ventilator-mpc.gif)
